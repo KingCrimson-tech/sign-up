@@ -5,9 +5,10 @@
 }
 
 @font-face {
-    font-family: norse;
-    src: url(/font/Norse-Bold.woff);
-    src: url(/font/Norse-Bold.woff2);
+    font-family: "norse";
+    src: 
+        url(/font/Norse-Bold.woff2) format("woff2"),
+        url(/font/Norse-Bold.woff) format("woff");
 }
 
 body{
@@ -26,7 +27,7 @@ header{
 
 header h1{
     color: white;
-    font-family: norse, sans-serif;
+    font-family: "norse", sans-serif;
     font-size: 5rem;
     padding-top: 20px;
 }
