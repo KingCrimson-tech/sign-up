@@ -7,8 +7,8 @@
 @font-face {
     font-family: "norse";
     src: 
-        url(/font/Norse-Bold.woff2) format("woff2"),
-        url(/font/Norse-Bold.woff) format("woff");
+        url(./font/Norse-Bold.woff2) format("woff2"),
+        url(./font/Norse-Bold.woff) format("woff");
 }
 
 body{
@@ -21,7 +21,7 @@ header{
     display: flex;
     flex-direction: column;
     flex: 4;
-    background: url(/image/back-pic.jpg);
+    background: url(./image/back-pic.jpg);
     background-size: cover;
 }
 
